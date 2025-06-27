@@ -37,7 +37,7 @@ function Home() {
           onClick={() => navigate('/about')}
           className="group relative w-24 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300 flex items-center justify-center px-4"
         >
-          <span className="text-black text-base font-semibold group-hover:scale-110 transition-transform duration-300">About</span>
+          <span className="text-black text-base font-semibold group-hover:scale-110 transition-transform duration-300">LETTER</span>
           <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         </button>
       </div>

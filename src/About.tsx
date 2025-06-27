@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center pt-12">
       {/* Top centered heading */}
-      <h1 className="text-5xl md:text-7xl font-bold text-black mb-10 text-center w-full">About Us</h1>
+      <h1 className="text-5xl md:text-7xl font-bold text-black mb-10 text-center w-full">Authors Letter</h1>
       {/* Centered text with even borders */}
       <div className="flex items-stretch w-full max-w-4xl px-4 mb-12">
         {/* Left border */}
@@ -24,29 +24,29 @@ function About() {
         <div className="hidden md:block border-r border-black/20 ml-6" />
       </div>
       {/* Bento grid for images - hack1.png big on left, hack2.png and hack3.png stacked on right */}
-      <div className="w-full max-w-5xl px-2 md:px-4 grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-6 items-stretch mb-10">
+      <div className="w-full max-w-6xl px-1 md:px-8 grid grid-cols-1 md:grid-cols-5 grid-rows-2 gap-8 items-stretch mb-10">
         {/* Large left image: hack1.png */}
-        <div className="md:col-span-2 md:row-span-2 h-full">
+        <div className="md:col-span-2 md:row-span-2 h-full flex">
           <img 
             src="/hack1.png" 
             alt="Hack 1" 
-            className="w-full h-full max-h-[500px] object-cover rounded-2xl shadow-md"
+            className="w-full h-full max-h-[600px] object-cover rounded-2xl shadow-md"
           />
         </div>
         {/* Top right: hack2.png */}
-        <div className="md:col-span-1 md:row-span-1">
+        <div className="md:col-span-3 md:row-span-1 flex">
           <img 
             src="/hack2.png" 
             alt="Hack 2" 
-            className="w-full h-full max-h-[245px] object-cover rounded-2xl shadow-md"
+            className="w-full h-full max-h-[295px] object-cover rounded-2xl shadow-md"
           />
         </div>
         {/* Bottom right: hack3.png */}
-        <div className="md:col-span-1 md:row-span-1">
+        <div className="md:col-span-3 md:row-span-1 flex">
           <img 
             src="/hack3.png" 
             alt="Hack 3" 
-            className="w-full h-full max-h-[245px] object-cover rounded-2xl shadow-md"
+            className="w-full h-full max-h-[295px] object-cover rounded-2xl shadow-md"
           />
         </div>
       </div>
